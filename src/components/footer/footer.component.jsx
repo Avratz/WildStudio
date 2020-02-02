@@ -38,7 +38,7 @@ export default function Footer({ footerLinks }) {
           <div className="footerCopy">
             <div className="logo">
               <h1>WILD</h1>
-              <h1>DESIGN STUDIO</h1>
+              <h1>STUDIO</h1>
             </div>
 
             <p>© {new Date().getFullYear()} Wild Studio</p>

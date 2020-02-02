@@ -33,7 +33,7 @@ export default function Landing() {
     >
       <Logo />
       <h1>WILD</h1>
-      <h1>DESIGN STUDIO</h1>
+      <h1>STUDIO</h1>
     </BackgroundImage>
   )
 }
