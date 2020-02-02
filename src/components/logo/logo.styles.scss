@@ -1,0 +1,17 @@
+.wild-logo {
+  width: calc(300px / 2);
+  height: calc(396px / 2);
+  @media (min-width: 1200px) {
+    width: 230px;
+    height: 295px;
+  }
+  @media (min-width: 1600px) {
+    width: 300px;
+    height: 396px;
+  }
+}
+
+.header-logo {
+  width: calc(300px / 4);
+  height: calc(396px / 4);
+}

@@ -1,0 +1,39 @@
+#Contacto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  background-color: #1d2680;
+  color: white;
+}
+
+#contact-form {
+  margin: auto;
+  @media (min-width: 1200px) {
+    width: 400px;
+  }
+
+  .form-group {
+    border: 0;
+  }
+  input,
+  textarea {
+    width: 90%;
+    border: 0;
+    margin-bottom: 5px;
+    padding: 7px;
+  }
+  button {
+    padding: 0.7em;
+    width: 90%;
+    border: 0;
+    margin-bottom: 0.2em;
+    background-color: #3f51b5;
+    color: white;
+    &:hover {
+      background-color: #3d5afe;
+      color: white;
+    }
+  }
+}

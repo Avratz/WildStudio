@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.wrapper {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  @media (min-width: 1200px) {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@font-face {
+  font-family: 'Walkway';
+  src: url('../assets/fonts/walkway_bold-webfont.woff2') format('woff2'),
+    url('../assets/fonts/walkway_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Walkway';
+  src: url('../assets/fonts/Walkway-Black.ttf');
+  font-weight: bold;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-primary {
+  color: #3f51b5;
+}
+
+.text-primary-darken {
+  color: #1a237e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Walkway';
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.3rem;
+  @media (min-width: 1200px) {
+    font-size: 3rem;
+  }
+}
+
+.sr-only {
+  display: none;
+}

@@ -1,0 +1,28 @@
+.trees-background {
+  min-height: 40vh;
+  opacity: 1 !important;
+}
+
+.logo {
+  h1 {
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+  }
+  h1:nth-of-type(2) {
+    font-size: 1rem;
+  }
+}
+
+.footerCopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+  p {
+    margin: 0;
+    padding: 15px;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}

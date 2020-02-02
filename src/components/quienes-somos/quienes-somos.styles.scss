@@ -1,0 +1,40 @@
+.river-background {
+  padding: 2rem 0 4rem 0;
+  @media (min-width: 1200px) {
+    padding: 2rem 0 8rem 0;
+  }
+}
+
+.head-title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem 0 4rem;
+  h2,
+  span {
+    font-family: 'Walkway';
+  }
+  span {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 10px;
+  }
+  h2 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  h2:nth-of-type(2) {
+    color: #3f51b5;
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    @media (min-width: 1200px) {
+      margin-top: -40px;
+    }
+    @media (min-width: 1600px) {
+      margin-top: -15px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.white-field-background {
+  color: white;
+  padding: 4rem 0 6rem 0;
+  @media (min-width: 1200px) {
+    padding: 6rem 0 16rem 0;
+  }
+}
+
+.separador {
+  padding: 4rem 0 0;
+  span {
+    font-family: 'Walkway';
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  span:nth-of-type(2) {
+    transform: rotate(180deg);
+    margin-top: -20px;
+  }
+}
